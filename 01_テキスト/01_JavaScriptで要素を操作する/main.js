@@ -10,9 +10,12 @@ for (const button of buttons.children) {
   }
 }
 
+const element = document.getElementById("element")
+element.textContent = "いえい"
+
 // 要素を変更する - textContent
 const elementTextContent = document.getElementById("element-textContent")
-elementTextContent.textContent = "こんばんは"
+elementTextContent.textContent = "こんばはは"
 
 // 要素を変更する - style
 const elementStyle = document.getElementById("element-style")
@@ -41,3 +44,7 @@ elementPrepend.prepend(div2)
 // 要素を削除する - remove
 const elementRemove = document.getElementById("element-remove")
 elementRemove.remove()
+
+const card = document.createElement("div")
+card.className = "card"
+card.textContent = "こんばんは"
