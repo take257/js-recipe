@@ -28,12 +28,18 @@
 
 //genkiFunction(100);
 
-const display = document.getElementById("display")
-const plusButton = document.getElementById("plus-button")
+//const display = document.getElementById("display")
+//const plusButton = document.getElementById("plus-button")
 
-let count = 0
+//let count = 0
 
-plusButton.onclick = function () {
-  count += 1
-  display.textContent = count
+//plusButton.onclick = function () {
+//  count += 1
+//  display.textContent = count
+//}
+
+const figure = document.getElementById("figure")
+
+figure.onclick = function () {
+  figure.classList.toggle("rounded")
 }
