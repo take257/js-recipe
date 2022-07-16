@@ -12,6 +12,11 @@ const hikakin = {
   },
 }
 
+hikakin.sayHello()
+
+console.dir(document)
+console.dir(window)
+
 // 練習問題
 // hikakin オブジェクトに入っている sayHello メソッドを実行してください。
 

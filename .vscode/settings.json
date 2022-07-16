@@ -34,6 +34,7 @@
     // ファイルを保存したときに、エラーを ESlint で検証する
     "source.fixAll.eslint": true
   },
+  "vetur.validation.template": false, // Vetur によるコードチェックを行わない
   "eslint.validate": [
     // ESLint によるコードチェックを、以下の言語について行う
     "html",
