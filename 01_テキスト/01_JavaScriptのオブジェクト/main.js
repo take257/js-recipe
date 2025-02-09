@@ -12,7 +12,7 @@ const hikakin = {
   },
 }
 
-hikakin.sayHello()
+hikakin.sayHello() //メソッドには()が必要
 
 console.dir(document)
 console.dir(window)
