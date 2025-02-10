@@ -43,3 +43,6 @@ const figure = document.getElementById("figure")
 figure.onclick = function () {
   figure.classList.toggle("rounded")
 }
+
+const element_youso = document.getElementById("element-id")
+console.log(element_youso)
